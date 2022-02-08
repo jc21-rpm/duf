@@ -3,7 +3,7 @@
 %global gh_user muesli
 
 Name:           duf
-Version:        0.8.0
+Version:        0.8.1
 Release:        1%{?dist}
 Summary:        Disk Usage/Free Utility - a better 'df' alternative 
 Group:          Applications/System
@@ -33,6 +33,9 @@ install -Dm0755 %{_builddir}/bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Tue Feb 8 2022 Jamie Curnow <jc@jc21.com> 0.8.1-1
+- https://github.com/muesli/duf/releases/tag/v0.8.1
+
 * Tue Feb 1 2022 Jamie Curnow <jc@jc21.com> 0.8.0-1
 - https://github.com/muesli/duf/releases/tag/v0.8.0
 
