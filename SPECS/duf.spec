@@ -5,7 +5,7 @@
 Name:           duf
 Version:        0.8.1
 Release:        1%{?dist}
-Summary:        Disk Usage/Free Utility - a better 'df' alternative 
+Summary:        Disk Usage/Free Utility - a better 'df' alternative
 Group:          Applications/System
 License:        MIT
 URL:            https://github.com/%{gh_user}/%{name}
